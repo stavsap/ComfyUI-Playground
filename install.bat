@@ -1,5 +1,5 @@
 git clone https://github.com/comfyanonymous/ComfyUI.git
-cd CompfyUI
+cd ComfyUI
 python -m venv venv
 venv\Scripts\activate.bat
 python -m pip install -r requirements.txt
