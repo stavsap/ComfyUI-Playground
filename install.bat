@@ -14,7 +14,12 @@ pip install torch torchvision torchaudio --extra-index-url https://download.pyto
 cd custom_nodes
 
 git clone https://github.com/ltdrdata/ComfyUI-Manager.git
+git clone https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git
 
-cd ..
+cd ../models/controlnet
+
+curl -s https://raw.githubusercontent.com/stavsap/CompfyUI-Playground/main/download-controlnet-models.py | python
+
+cd ../..
 
 python main.py --windows-standalone-build --listen
