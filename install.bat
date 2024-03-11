@@ -12,7 +12,7 @@ pip install torch torchvision torchaudio --extra-index-url https://download.pyto
 
 cd custom_nodes
 
-https://github.com/ltdrdata/ComfyUI-Manager.git
+git clone https://github.com/ltdrdata/ComfyUI-Manager.git
 
 cd ..
 
