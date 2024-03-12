@@ -16,10 +16,16 @@ cd custom_nodes
 git clone https://github.com/ltdrdata/ComfyUI-Manager.git
 git clone https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git
 
-cd ../models/controlnet
+cd ..
+
+mkdir models\insightface\models
 
 curl -s https://raw.githubusercontent.com/stavsap/CompfyUI-Playground/main/download-controlnet-models.py | python
 
-cd ../..
+cd models\insightface\models
+tar -xf antelopev2.zip
+del antelopev2.zip
+
+cd ../../..
 
 python main.py --windows-standalone-build --listen
