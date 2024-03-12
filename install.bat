@@ -1,5 +1,5 @@
 @echo off
-curl -o run.bat https://raw.githubusercontent.com/stavsap/CompfyUI-Playground/main/run.bat
+curl -o run.bat https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/run.bat
 git clone https://github.com/comfyanonymous/ComfyUI.git
 
 cd ComfyUI
@@ -33,7 +33,7 @@ cd ..
 
 cd ..
 
-curl -s https://raw.githubusercontent.com/stavsap/CompfyUI-Playground/main/download-models.py | python
+curl -s https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/download-models.py | python
 
 cd models\insightface\models
 tar -xf antelopev2.zip
