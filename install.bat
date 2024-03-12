@@ -12,20 +12,17 @@ python -m pip install -r requirements.txt
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu121
 
 cd custom_nodes
-
 git clone https://github.com/ltdrdata/ComfyUI-Manager.git
 git clone https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git
-
+git clone https://github.com/cubiq/ComfyUI_IPAdapter_plus.git
+git clone https://github.com/cubiq/ComfyUI_InstantID.git
 cd ..
-
-mkdir models\insightface\models
 
 curl -s https://raw.githubusercontent.com/stavsap/CompfyUI-Playground/main/download-controlnet-models.py | python
 
 cd models\insightface\models
 tar -xf antelopev2.zip
 del antelopev2.zip
-
 cd ../../..
 
 python main.py --windows-standalone-build --listen
