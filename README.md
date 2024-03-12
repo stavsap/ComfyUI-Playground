@@ -2,7 +2,7 @@
 
 # Install
 
-The install will setup ComfyUI on the host, and download relevent models for the custom nodes. prerequisites are 
+The install will setup ComfyUI on the host, and download relevant models for the custom nodes. prerequisites are 
 
 - python 3.10+
 - git
