@@ -11,3 +11,4 @@ curl -o install.bat https://raw.githubusercontent.com/stavsap/CompfyUI-Playgroun
 # Additional Installed
 
 [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager)
+[ComfyUI-Advanced-ControlNet](https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git)
