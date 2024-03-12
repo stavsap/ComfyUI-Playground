@@ -22,7 +22,7 @@ git clone https://github.com/cubiq/ComfyUI_IPAdapter_plus.git
 git clone https://github.com/cubiq/ComfyUI_InstantID.git
 cd ..
 
-curl -s https://raw.githubusercontent.com/stavsap/CompfyUI-Playground/main/download-controlnet-models.py | python
+curl -s https://raw.githubusercontent.com/stavsap/CompfyUI-Playground/main/download-models.py | python
 
 cd models\insightface\models
 tar -xf antelopev2.zip
