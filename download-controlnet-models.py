@@ -3,7 +3,7 @@ from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 downloads = [
-        ("https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11e_sd15_ip2p.pth","control_v11e_sd15_ip2p.pth","./models/controlnet"),
+        ("https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11e_sd15_ip2p.pth", "control_v11e_sd15_ip2p.pth", "./models/controlnet"),
         ("https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11e_sd15_ip2p.yaml","control_v11e_sd15_ip2p.yaml","./models/controlnet"),
         ("https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11e_sd15_shuffle.pth","control_v11e_sd15_shuffle.pth","./models/controlnet"),
         ("https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11e_sd15_shuffle.yaml","control_v11e_sd15_shuffle.yaml","./models/controlnet"),
