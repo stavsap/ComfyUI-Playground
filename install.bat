@@ -7,9 +7,13 @@ python -m venv venv
 call venv\Scripts\activate.bat
 
 python -m pip install --upgrade pip
-python -m pip install huggingface_hub
 python -m pip install -r requirements.txt
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu121
+python -m pip install huggingface_hub
+python -m pip install opencv-python
+python -m pip install insightface
+python -m pip install onnxruntime
+python -m pip install onnxruntime-gpu
 
 cd custom_nodes
 git clone https://github.com/ltdrdata/ComfyUI-Manager.git
