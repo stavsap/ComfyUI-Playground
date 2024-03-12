@@ -2,10 +2,11 @@
 
 # Install
 
-The install will setup ComfyUI on the host, and download relevant models for the custom nodes. prerequisites are 
+The installation will set up ComfyUI on the host, and download custom nodes and relevant models. Pre-requisites are:
 
-- python 3.10+
-- git
+- [python 3.10+](https://www.python.org/downloads/)
+- [git](https://git-scm.com/downloads)
+- Install [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) (it is required for some custom nodes to build c compiled python packages) OR only [VS C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) and select "Desktop Development with C++" under "Workloads -> Desktop & Mobile".
 
 Current Install Size: ~41GB
 
