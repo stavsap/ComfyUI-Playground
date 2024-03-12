@@ -24,6 +24,7 @@ git clone https://github.com/Gourieff/comfyui-reactor-node.git
 cd comfyui-reactor-node
 python install.py
 cd ..
+git clone https://github.com/stavsap/comfyui-ollama.git
 cd ..
 
 curl -s https://raw.githubusercontent.com/stavsap/CompfyUI-Playground/main/download-models.py | python
