@@ -31,6 +31,8 @@ downloads = [
         ("https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_softedge.yaml","control_v11p_sd15_softedge.yaml","./models/controlnet"),
         ("https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15s2_lineart_anime.pth","control_v11p_sd15s2_lineart_anime.pth","./models/controlnet"),
         ("https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15s2_lineart_anime.yaml","control_v11p_sd15s2_lineart_anime.yaml","./models/controlnet"),
+        ("https://huggingface.co/MonsterMMORPG/tools/resolve/main/antelopev2.zip?download=true","antelopev2.zip","./models/insightface/models"),
+        
 ]
 
 def download_file(url, file_name, path):
