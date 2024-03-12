@@ -1,5 +1,5 @@
 @echo off
-
+curl -o run.bat https://raw.githubusercontent.com/stavsap/CompfyUI-Playground/main/run.bat
 git clone https://github.com/comfyanonymous/ComfyUI.git
 
 cd ComfyUI
