@@ -20,11 +20,17 @@ git clone https://github.com/ltdrdata/ComfyUI-Manager.git
 git clone https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git
 git clone https://github.com/cubiq/ComfyUI_IPAdapter_plus.git
 git clone https://github.com/cubiq/ComfyUI_InstantID.git
+
 git clone https://github.com/Gourieff/comfyui-reactor-node.git
 cd comfyui-reactor-node
 python install.py
 cd ..
+
 git clone https://github.com/stavsap/comfyui-ollama.git
+cd comfyui-ollama
+python -m pip install -r requirements.txt
+cd ..
+
 cd ..
 
 curl -s https://raw.githubusercontent.com/stavsap/CompfyUI-Playground/main/download-models.py | python
