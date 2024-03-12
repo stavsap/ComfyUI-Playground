@@ -58,6 +58,9 @@ downloads = [
         ("https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sdxl.bin?download=true", "ip-adapter-faceid_sdxl.bin", './models/loras/'),
         ("https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl.bin?download=true", "ip-adapter-plusv2_sdxl.bin", './models/loras/'),
 
+        ("https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/codeformer.pth",  "codeformer.pth", './models/facerestore_models /'),
+        ("https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/GFPGANv1.4.pth",  "GFPGANv1.4.pth", './models/facerestore_models /'),
+
 ]
 
 def download_file(url, file_name, path):

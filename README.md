@@ -23,3 +23,4 @@ curl -o install.bat https://raw.githubusercontent.com/stavsap/CompfyUI-Playgroun
 - [ComfyUI-Advanced-ControlNet](https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git)
 - [ComfyUI-IPAdapter-plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus.git)
 - [ComfyUI-InstantID](https://github.com/cubiq/ComfyUI_InstantID.git)
+- [ComfyUI-Reactor](https://github.com/Gourieff/comfyui-reactor-node.git)
