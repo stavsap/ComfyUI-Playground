@@ -7,6 +7,8 @@ The install will setup ComfyUI on the host, and download relevent models for the
 - python 3.10+
 - git
 
+Current Install Size: ~41GB
+
 ## Windows Install
 
 open cmd, copy past this command and run:
@@ -14,7 +16,6 @@ open cmd, copy past this command and run:
 ```shell
 curl -o install.bat https://raw.githubusercontent.com/stavsap/CompfyUI-Playground/main/install.bat && cmd /c install.bat
 ```
-Current Install Size: ~41GB
 
 # Additional Custom nodes Installed
 
