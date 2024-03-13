@@ -17,7 +17,13 @@ python -m pip install onnxruntime-gpu
 
 cd custom_nodes
 git clone https://github.com/ltdrdata/ComfyUI-Manager.git
+git clone https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git
 git clone https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git
+
+cd ComfyUI-Advanced-ControlNet
+python -m pip install -r requirements.txt
+cd ..
+
 git clone https://github.com/cubiq/ComfyUI_IPAdapter_plus.git
 git clone https://github.com/cubiq/ComfyUI_InstantID.git
 
