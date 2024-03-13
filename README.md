@@ -25,6 +25,7 @@ curl -o install.bat https://raw.githubusercontent.com/stavsap/ComfyUI-Playground
 - [ComfyUI-Reactor](https://github.com/Gourieff/comfyui-reactor-node.git)
 - [ComfyUI-Ollama](https://github.com/stavsap/comfyui-ollama.git)
 - [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts)
+- [ComfyUI-NN-Latent-Upscale](https://github.com/Ttl/ComfyUi_NNLatentUpscale)
 
 # Models:
 

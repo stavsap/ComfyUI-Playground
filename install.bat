@@ -37,6 +37,8 @@ cd comfyui-ollama
 python -m pip install -r requirements.txt
 cd ..
 
+git clone https://github.com/Ttl/ComfyUi_NNLatentUpscale.git
+
 cd ..
 
 curl -s https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/download-models.py | python
