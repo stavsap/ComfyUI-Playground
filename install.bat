@@ -38,6 +38,7 @@ python -m pip install -r requirements.txt
 cd ..
 
 git clone https://github.com/Ttl/ComfyUi_NNLatentUpscale.git
+git clone https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git
 
 cd ..
 

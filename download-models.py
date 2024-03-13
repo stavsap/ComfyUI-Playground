@@ -71,6 +71,23 @@ downloads = [
 
         ("https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sd_xl_turbo_1.0_fp16.safetensors?download=true",  "sd_xl_turbo_1.0_fp16.safetensors.safetensors", './models/checkpoints/sdxl/'),
         ("https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x-UltraSharp.pth?download=true",  "4x-UltraSharp.pth", './models/upscale_models/'),
+
+        ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/mm_sd_v14.ckpt?download=true",  "mm_sd_v14.ckpt", './models/animatediff_models/'),
+        ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/mm_sd_v15.ckpt?download=true",  "mm_sd_v15.ckpt", './models/animatediff_models/'),
+        ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/mm_sd_v15_v2.ckpt?download=true",  "mm_sd_v15_v2.ckpt", './models/animatediff_models/'),
+        ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/mm_sdxl_v10_beta.ckpt?download=true",  "mm_sdxl_v10_beta.ckpt", './models/animatediff_models/'),
+        ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/v2_lora_PanLeft.ckpt?download=true",  "v2_lora_PanLeft.ckpt", './models/animatediff_motion_lora/'),
+        ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/v2_lora_PanRight.ckpt?download=true",  "v2_lora_PanRight.ckpt", './models/animatediff_motion_lora/'),
+        ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/v2_lora_RollingAnticlockwise.ckpt?download=true",  "v2_lora_RollingAnticlockwise.ckpt", './models/animatediff_motion_lora/'),
+        ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/v2_lora_RollingClockwise.ckpt?download=true",  "v2_lora_RollingClockwise.ckpt", './models/animatediff_motion_lora/'),
+        ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/v2_lora_TiltDown.ckpt?download=true",  "v2_lora_TiltDown.ckpt", './models/animatediff_motion_lora/'),
+        ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/v2_lora_TiltUp.ckpt?download=true",  "v2_lora_TiltUp.ckpt", './models/animatediff_motion_lora/'),
+        ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/v2_lora_ZoomIn.ckpt?download=true",  "v2_lora_ZoomIn.ckpt", './models/animatediff_motion_lora/'),
+        ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/v2_lora_ZoomOut.ckpt?download=true",  "v2_lora_ZoomOut.ckpt", './models/animatediff_motion_lora/'),
+        ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/v3_sd15_adapter.ckpt?download=true",  "v3_sd15_adapter.ckpt", './models/animatediff_models/'),
+        ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/v3_sd15_mm.ckpt?download=true",  "v3_sd15_mm.ckpt", './models/animatediff_models/'),
+        ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/v3_sd15_sparsectrl_rgb.ckpt?download=true",  "v3_sd15_sparsectrl_rgb.ckpt", './models/animatediff_models/'),
+        ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/v3_sd15_sparsectrl_scribble.ckpt?download=true",  "v3_sd15_sparsectrl_scribble.ckpt", './models/animatediff_models/'),
 ]
 
 def download_file(url, file_name, path):
