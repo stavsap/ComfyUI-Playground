@@ -61,6 +61,16 @@ downloads = [
         ("https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/codeformer.pth",  "codeformer.pth", './models/facerestore_models/'),
         ("https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/GFPGANv1.4.pth",  "GFPGANv1.4.pth", './models/facerestore_models/'),
 
+        ("https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors?download=true",  "sd_xl_base_1.0.safetensors", './models/checkpoints/sdxl/'),
+        ("https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors?download=true",  "sd_xl_refiner_1.0.safetensors", './models/checkpoints/sdxl/'),
+        ("https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors?download=true",  "sdxl_vae.safetensors", './models/vae/'),
+
+        ("https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors?download=true",  "stable_cascade_stage_c.safetensors", './models/checkpoints/sd-cascade/'),
+        ("https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors?download=true",  "stable_cascade_stage_b.safetensors", './models/checkpoints/sd-cascade/'),
+        ("https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_a.safetensors?download=true",  "stable_cascade_stage_a.safetensors", './models/vae/'),
+
+        ("https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sd_xl_turbo_1.0_fp16.safetensors?download=true",  "sd_xl_turbo_1.0_fp16.safetensors.safetensors", './models/checkpoints/sdxl/'),
+        ("https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x-UltraSharp.pth?download=true",  "4x-UltraSharp.pth", './models/upscale_models/'),
 ]
 
 def download_file(url, file_name, path):

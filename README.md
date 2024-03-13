@@ -26,3 +26,8 @@ curl -o install.bat https://raw.githubusercontent.com/stavsap/ComfyUI-Playground
 - [ComfyUI-InstantID](https://github.com/cubiq/ComfyUI_InstantID.git)
 - [ComfyUI-Reactor](https://github.com/Gourieff/comfyui-reactor-node.git)
 - [ComfyUI-Ollama](https://github.com/stavsap/comfyui-ollama.git)
+
+# Models:
+
+- Stable Diffusion XL 1.0 [base](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) and [refiner](https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0).
+- Stable Diffusion [Cascade](https://huggingface.co/stabilityai/stable-cascade).
