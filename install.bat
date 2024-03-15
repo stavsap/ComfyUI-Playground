@@ -49,4 +49,6 @@ tar -xf antelopev2.zip
 del antelopev2.zip
 cd ../../..
 
+curl -s https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/download-checkpoints.py | python
+
 python main.py --windows-standalone-build --listen

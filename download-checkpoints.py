@@ -4,7 +4,18 @@ from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 downloads = [
-        ("https://civitai.com/api/download/models/357609",  "juggernautXL_v9Rdphoto2Lightning.safetensors", './models/checkpoints/sdxl/'),
+    ("https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors?download=true", "sd_xl_base_1.0.safetensors", './models/checkpoints/sdxl/'),
+    ("https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors?download=true", "sd_xl_refiner_1.0.safetensors", './models/checkpoints/sdxl/'),
+    ("https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors?download=true", "sdxl_vae.safetensors", './models/vae/'),
+
+    ("https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors?download=true", "stable_cascade_stage_c.safetensors", './models/checkpoints/sd-cascade/'),
+    ("https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors?download=true", "stable_cascade_stage_b.safetensors", './models/checkpoints/sd-cascade/'),
+    ("https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_a.safetensors?download=true", "stable_cascade_stage_a.safetensors", './models/vae/'),
+
+    ("https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sd_xl_turbo_1.0_fp16.safetensors?download=true",  "sd_xl_turbo_1.0_fp16.safetensors.safetensors", './models/checkpoints/sdxl/'),
+
+    ("https://civitai.com/api/download/models/357609",  "juggernautXL_v9Rdphoto2Lightning.safetensors", './models/checkpoints/sdxl/'),
+    ("https://civitai.com/api/download/models/351306",  "dreamshaperXL_v21TurboDPMSDE.safetensors", './models/checkpoints/sdxl/'),
 ]
 
 def download_file(url, file_name, path):
