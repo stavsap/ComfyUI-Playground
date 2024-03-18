@@ -26,6 +26,7 @@ cd ..
 
 git clone https://github.com/cubiq/ComfyUI_IPAdapter_plus.git
 git clone https://github.com/cubiq/ComfyUI_InstantID.git
+git clone https://github.com/cubiq/ComfyUI_essentials.git
 
 git clone https://github.com/Gourieff/comfyui-reactor-node.git
 cd comfyui-reactor-node
