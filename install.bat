@@ -1,4 +1,5 @@
 @echo off
+
 curl -o run.bat https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/run.bat
 git clone https://github.com/comfyanonymous/ComfyUI.git
 
@@ -18,15 +19,16 @@ python -m pip install onnxruntime-gpu
 cd custom_nodes
 git clone https://github.com/ltdrdata/ComfyUI-Manager.git
 git clone https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git
-git clone https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git
-
-cd ComfyUI-Advanced-ControlNet
-python -m pip install -r requirements.txt
-cd ..
-
 git clone https://github.com/cubiq/ComfyUI_IPAdapter_plus.git
 git clone https://github.com/cubiq/ComfyUI_InstantID.git
 git clone https://github.com/cubiq/ComfyUI_essentials.git
+git clone https://github.com/Ttl/ComfyUi_NNLatentUpscale.git
+git clone https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git
+
+git clone https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git
+cd ComfyUI-Advanced-ControlNet
+python -m pip install -r requirements.txt
+cd ..
 
 git clone https://github.com/Gourieff/comfyui-reactor-node.git
 cd comfyui-reactor-node
@@ -36,12 +38,7 @@ cd ..
 git clone https://github.com/stavsap/comfyui-ollama.git
 cd comfyui-ollama
 python -m pip install -r requirements.txt
-cd ..
-
-git clone https://github.com/Ttl/ComfyUi_NNLatentUpscale.git
-git clone https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git
-
-cd ..
+cd ../..
 
 curl -s https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/download-models.py | python
 
