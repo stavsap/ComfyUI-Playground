@@ -24,7 +24,7 @@ git clone https://github.com/cubiq/ComfyUI_InstantID.git
 git clone https://github.com/cubiq/ComfyUI_essentials.git
 git clone https://github.com/Ttl/ComfyUi_NNLatentUpscale.git
 git clone https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git
-git clone https://github.com/rgthree/rgthree-comfy
+git clone https://github.com/rgthree/rgthree-comfy.git
 
 git clone https://github.com/kijai/ComfyUI-SUPIR.git
 cd ComfyUI-SUPIR
