@@ -36,6 +36,7 @@ curl -o install.bat https://raw.githubusercontent.com/stavsap/ComfyUI-Playground
 - Stable Diffusion XL 1.0 [base](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) and [refiner](https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0).
 - Stable Diffusion [Cascade](https://huggingface.co/stabilityai/stable-cascade).
 - Stable Diffusion XL [Turbo](https://huggingface.co/stabilityai/sdxl-turbo).
+- [RealVisXL_V3 turbo](https://huggingface.co/SG161222/RealVisXL_V3.0_Turbo)
 - https://civitai.com/
 
 # Upscalers
