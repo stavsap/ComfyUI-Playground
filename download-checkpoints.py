@@ -22,7 +22,7 @@ downloads = [
     ("https://huggingface.co/SG161222/RealVisXL_V3.0_Turbo/resolve/main/RealVisXL_V3.0_Turbo.safetensors?download=true",  "RealVisXL_V3.0_Turbo.safetensors", './models/checkpoints/sdxl/'),
     ("https://huggingface.co/SG161222/RealVisXL_V4.0_Lightning/resolve/main/RealVisXL_V4.0_Lightning.safetensors?download=true",  "RealVisXL_V4.0_Lightning.safetensors", './models/checkpoints/sdxl/'),
 
-     ("https://huggingface.co/stavsap/my-comfy-models/resolve/main/juggernautXL_v9Rdphoto2Lightning.safetensors?download=true",  "juggernautXL_v9Rdphoto2Lightning.safetensors", './models/checkpoints/sdxl/'),
+     ("https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/resolve/main/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors?download=true",  "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors", './models/checkpoints/sdxl/'),
 ]
 
 def download_file(url, file_name, path):
