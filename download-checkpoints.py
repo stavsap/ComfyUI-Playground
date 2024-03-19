@@ -16,6 +16,10 @@ downloads = [
 
     ("https://civitai.com/api/download/models/357609",  "juggernautXL_v9Rdphoto2Lightning.safetensors", './models/checkpoints/sdxl/'),
     ("https://civitai.com/api/download/models/351306",  "dreamshaperXL_v21TurboDPMSDE.safetensors", './models/checkpoints/sdxl/'),
+
+    ("https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0F.ckpt?download=true",  "SUPIR-v0F.ckpt", './models/checkpoints/supir/'),
+    ("https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt?download=true",  "SUPIR-v0Q.ckpt", './models/checkpoints/supir/'),
+    
 ]
 
 def download_file(url, file_name, path):
