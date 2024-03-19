@@ -22,11 +22,13 @@ curl -o install.bat https://raw.githubusercontent.com/stavsap/ComfyUI-Playground
 - [ComfyUI-Advanced-ControlNet](https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git)
 - [ComfyUI-IPAdapter-plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus.git)
 - [ComfyUI-InstantID](https://github.com/cubiq/ComfyUI_InstantID.git)
+- [ComfyUI-Essentials](https://github.com/cubiq/ComfyUI_essentials)
 - [ComfyUI-Reactor](https://github.com/Gourieff/comfyui-reactor-node.git)
 - [ComfyUI-Ollama](https://github.com/stavsap/comfyui-ollama.git)
 - [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts)
 - [ComfyUI-NN-Latent-Upscale](https://github.com/Ttl/ComfyUi_NNLatentUpscale)
 - [ComfyUI-AnimateDiff-Evolved](https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved)
+- [ComfyUI-SUPIR](https://github.com/kijai/ComfyUI-SUPIR)
 
 # Models:
 
