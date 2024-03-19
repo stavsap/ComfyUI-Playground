@@ -14,7 +14,6 @@ downloads = [
 
     ("https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sd_xl_turbo_1.0_fp16.safetensors?download=true",  "sd_xl_turbo_1.0_fp16.safetensors.safetensors", './models/checkpoints/sdxl/'),
 
-    ("https://civitai.com/api/download/models/351306",  "dreamshaperXL_v21TurboDPMSDE.safetensors", './models/checkpoints/sdxl/'),
 
     ("https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0F.ckpt?download=true",  "SUPIR-v0F.ckpt", './models/checkpoints/supir/'),
     ("https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt?download=true",  "SUPIR-v0Q.ckpt", './models/checkpoints/supir/'),
@@ -22,7 +21,10 @@ downloads = [
     ("https://huggingface.co/SG161222/RealVisXL_V3.0_Turbo/resolve/main/RealVisXL_V3.0_Turbo.safetensors?download=true",  "RealVisXL_V3.0_Turbo.safetensors", './models/checkpoints/sdxl/'),
     ("https://huggingface.co/SG161222/RealVisXL_V4.0_Lightning/resolve/main/RealVisXL_V4.0_Lightning.safetensors?download=true",  "RealVisXL_V4.0_Lightning.safetensors", './models/checkpoints/sdxl/'),
 
-     ("https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/resolve/main/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors?download=true",  "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors", './models/checkpoints/sdxl/'),
+    ("https://huggingface.co/Lykon/dreamshaper-xl-v2-turbo/resolve/main/DreamShaperXL_Turbo_v2_1.safetensors?download=true",  "DreamShaperXL_Turbo_v2_1.safetensors", './models/checkpoints/sdxl/'),
+    ("https://huggingface.co/Lykon/dreamshaper-xl-lightning/resolve/main/DreamShaperXL_Lightning.safetensors?download=true",  "DreamShaperXL_Lightning.safetensors", './models/checkpoints/sdxl/'),
+
+    ("https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/resolve/main/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors?download=true",  "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors", './models/checkpoints/sdxl/'),
 ]
 
 def download_file(url, file_name, path):
