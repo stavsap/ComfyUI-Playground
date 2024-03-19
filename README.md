@@ -29,6 +29,7 @@ curl -o install.bat https://raw.githubusercontent.com/stavsap/ComfyUI-Playground
 - [ComfyUI-NN-Latent-Upscale](https://github.com/Ttl/ComfyUi_NNLatentUpscale)
 - [ComfyUI-AnimateDiff-Evolved](https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved)
 - [ComfyUI-SUPIR](https://github.com/kijai/ComfyUI-SUPIR)
+- [ComfyUI-RG3](https://github.com/rgthree/rgthree-comfy)
 
 # Models:
 
