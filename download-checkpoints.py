@@ -14,12 +14,15 @@ downloads = [
 
     ("https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sd_xl_turbo_1.0_fp16.safetensors?download=true",  "sd_xl_turbo_1.0_fp16.safetensors.safetensors", './models/checkpoints/sdxl/'),
 
-    ("https://civitai.com/api/download/models/357609",  "juggernautXL_v9Rdphoto2Lightning.safetensors", './models/checkpoints/sdxl/'),
     ("https://civitai.com/api/download/models/351306",  "dreamshaperXL_v21TurboDPMSDE.safetensors", './models/checkpoints/sdxl/'),
 
     ("https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0F.ckpt?download=true",  "SUPIR-v0F.ckpt", './models/checkpoints/supir/'),
     ("https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt?download=true",  "SUPIR-v0Q.ckpt", './models/checkpoints/supir/'),
-    
+
+    ("https://huggingface.co/SG161222/RealVisXL_V3.0_Turbo/resolve/main/RealVisXL_V3.0_Turbo.safetensors?download=true",  "RealVisXL_V3.0_Turbo.safetensors", './models/checkpoints/sdxl/'),
+    ("https://huggingface.co/SG161222/RealVisXL_V4.0_Lightning/resolve/main/RealVisXL_V4.0_Lightning.safetensors?download=true",  "RealVisXL_V4.0_Lightning.safetensors", './models/checkpoints/sdxl/'),
+
+     ("https://huggingface.co/stavsap/my-comfy-models/resolve/main/juggernautXL_v9Rdphoto2Lightning.safetensors?download=true",  "juggernautXL_v9Rdphoto2Lightning.safetensors", './models/checkpoints/sdxl/'),
 ]
 
 def download_file(url, file_name, path):
