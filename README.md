@@ -6,7 +6,7 @@ The installation will set up ComfyUI on the host, and download custom nodes and 
 
 - [python 3.10+](https://www.python.org/downloads/)
 - [git](https://git-scm.com/downloads)
-- Install [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) (it is required for some custom nodes to build c compiled python packages) OR only [VS C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) and select "Desktop Development with C++" under "Workloads -> Desktop & Mobile".
+- Install [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) (it is required for some custom nodes to build c compiled python packages) OR only [VS C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) and select "Desktop Development with C++" under "Workloads -> Desktop & Mobile". Make sure the "cmake" is set in you cli PATH.
 
 Current Install Size: ~100GB
 
@@ -14,6 +14,17 @@ open cmd, copy past this command and run:
 
 ```shell
 curl -o install.bat https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/install.bat && cmd /c install.bat
+```
+
+# Ubuntu Install
+
+- [python 3.10+](https://www.python.org/downloads/)
+- [git](https://git-scm.com/downloads)
+- unzip
+- make
+
+```shell
+curl -sLS https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/ubuntu_install.sh | bash
 ```
 
 # Additional Custom nodes Installed
