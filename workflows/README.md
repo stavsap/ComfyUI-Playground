@@ -10,3 +10,10 @@ Example for [LCM SDXL](https://huggingface.co/latent-consistency/lcm-lora-sdxl),
 Useful for testing prompts and setting fast.
 
 ![pic](LCM-Lora.png)
+
+
+## SUPIR Upscale
+
+[SUPIR by xpixel](https://supir.xpixel.group/) Upscaler.
+
+![pic](SUPIR.png)
