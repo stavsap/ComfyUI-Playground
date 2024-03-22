@@ -1,7 +1,12 @@
 # Workflows
 
+Basic workflows to get started with comfy and the installed models by this repo.
+
+Just drag the picture into comfy and it will load the workflow.
+
 # Table of contents
 1. [LCM SDXL Lora](#lcm-sdxl-lora)
+2. [SUPIR Upscaler](#supir-upscale)
 
 ## LCM SDXL Lora
 
@@ -12,7 +17,7 @@ Useful for testing prompts and setting fast.
 ![pic](LCM-Lora.png)
 
 
-## SUPIR Upscale
+## SUPIR Upscaler
 
 [SUPIR by xpixel](https://supir.xpixel.group/) Upscaler.
 
