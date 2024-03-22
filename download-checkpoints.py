@@ -25,6 +25,7 @@ downloads = [
     ("https://huggingface.co/Lykon/dreamshaper-xl-lightning/resolve/main/DreamShaperXL_Lightning.safetensors?download=true",  "DreamShaperXL_Lightning.safetensors", './models/checkpoints/sdxl/'),
 
     ("https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/resolve/main/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors?download=true",  "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors", './models/checkpoints/sdxl/'),
+    ("https://huggingface.co/latent-consistency/lcm-lora-sdxl/resolve/main/pytorch_lora_weights.safetensors?download=true",  "LCM-lora-weights.safetensors", './models/checkpoints/loras/'),
 ]
 
 def download_file(url, file_name, path):
