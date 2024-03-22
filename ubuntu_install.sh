@@ -25,6 +25,11 @@ git clone https://github.com/Ttl/ComfyUi_NNLatentUpscale.git
 git clone https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git
 git clone https://github.com/rgthree/rgthree-comfy.git
 
+https://github.com/giriss/comfy-image-saver.git
+cd comfy-image-saver
+python -m pip install -r requirements.txt
+cd ..
+
 git clone https://github.com/kijai/ComfyUI-SUPIR.git
 cd ComfyUI-SUPIR
 python -m pip install -r requirements.txt

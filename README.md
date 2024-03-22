@@ -41,6 +41,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/ubun
 - [ComfyUI-AnimateDiff-Evolved](https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved)
 - [ComfyUI-SUPIR](https://github.com/kijai/ComfyUI-SUPIR)
 - [ComfyUI-RG3](https://github.com/rgthree/rgthree-comfy)
+- [ComfyUI-Image-Saver](https://github.com/giriss/comfy-image-saver)
 
 # Models:
 
@@ -52,7 +53,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/ubun
 - [dreamshaper-xl-lightning](https://huggingface.co/Lykon/dreamshaper-xl-lightning)
 - [RealVisXL V3 Turbo](https://huggingface.co/SG161222/RealVisXL_V3.0_Turbo).
 - [RealVisXL V4.0 Lightning](https://huggingface.co/SG161222/RealVisXL_V4.0_Lightning)
-- get more at: https://civitai.com/
+- get more at: [https://civitai.com](https://civitai.com/)
 
 # Upscalers
 
