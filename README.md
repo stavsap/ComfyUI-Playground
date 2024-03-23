@@ -8,7 +8,7 @@ The installation will set up ComfyUI on the host, and download custom nodes and 
 - [git](https://git-scm.com/downloads)
 - [cmake](https://cmake.org/download/)
 
-Current Install Size: ~100GB
+Current Install Size: ~120GB
 
 open cmd, copy past this command and run:
 
