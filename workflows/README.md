@@ -7,6 +7,7 @@ Just drag the picture into comfy and it will load the workflow.
 # Table of contents
 1. [LCM SDXL Lora](#lcm-sdxl-lora)
 2. [SUPIR Upscaler](#supir-upscale)
+3. [Face InstantID + IP Adapter](#instant-id-with-ip-adapter)
 
 ## LCM SDXL Lora
 
@@ -22,3 +23,9 @@ Useful for testing prompts and setting fast.
 [SUPIR by xpixel](https://supir.xpixel.group/) Upscaler.
 
 ![pic](SUPIR.png)
+
+## Instant ID with IP Adapter
+
+Preserve character face with combination of prompt and style using instant ID and IP Adapter.
+
+![pic](instanteID-ip-adpater.png)
