@@ -6,7 +6,7 @@ The installation will set up ComfyUI on the host, and download custom nodes and 
 
 - [python 3.10+](https://www.python.org/downloads/)
 - [git](https://git-scm.com/downloads)
-- Install [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) (it is required for some custom nodes to build c compiled python packages) OR only [VS C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) and select "Desktop Development with C++" under "Workloads -> Desktop & Mobile". Make sure the "cmake" is set in you cli PATH.
+- [cmake](https://cmake.org/download/)
 
 Current Install Size: ~100GB
 
