@@ -14,6 +14,7 @@ python -m pip install opencv-python
 python -m pip install insightface
 python -m pip install onnxruntime
 python -m pip install onnxruntime-gpu
+python -m pip install simpleeval
 
 cd custom_nodes
 git clone https://github.com/ltdrdata/ComfyUI-Manager.git
