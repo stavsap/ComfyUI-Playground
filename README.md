@@ -42,6 +42,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/ubun
 - [ComfyUI-SUPIR](https://github.com/kijai/ComfyUI-SUPIR)
 - [ComfyUI-RG3](https://github.com/rgthree/rgthree-comfy)
 - [ComfyUI-Image-Saver](https://github.com/giriss/comfy-image-saver)
+- [ComfyUI-Images-Grid](https://github.com/LEv145/images-grid-comfy-plugin.git)
 
 # Models:
 
