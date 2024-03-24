@@ -61,3 +61,8 @@ curl -sLS https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/ubun
 
 - [Open Model DB](https://openmodeldb.info/)
 - https://huggingface.co/uwg/upscaler
+
+
+# Workflows:
+
+https://github.com/wyrde/wyrde-comfyui-workflows
