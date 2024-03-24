@@ -52,7 +52,7 @@ cd ../..
 
 curl -s https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/download-models.py | python
 
-cd models\insightface\models
+cd models/insightface/models
 unzip antelopev2.zip
 rm antelopev2.zip
 cd ../../..
