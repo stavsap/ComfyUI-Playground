@@ -97,6 +97,14 @@ def download_file(url, file_name, path):
 
         progress_bar.close()
 
+def create_folder_if_not_exists(folder_path):
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+        print(f"Folder: '{folder_path}', created.")
+
+for url, file_name, path in downloads:
+    create_folder_if_not_exists(path)
+
 with ThreadPoolExecutor(max_workers=4) as executor:
     future_to_download = {executor.submit(download_file, url, file_name, path): file_name for url, file_name, path in downloads}
     for future in as_completed(future_to_download):

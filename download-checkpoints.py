@@ -14,7 +14,6 @@ downloads = [
 
     ("https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sd_xl_turbo_1.0_fp16.safetensors?download=true",  "sd_xl_turbo_1.0_fp16.safetensors.safetensors", './models/checkpoints/sdxl/'),
 
-
     ("https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0F.ckpt?download=true",  "SUPIR-v0F.ckpt", './models/checkpoints/supir/'),
     ("https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt?download=true",  "SUPIR-v0Q.ckpt", './models/checkpoints/supir/'),
 
@@ -41,6 +40,14 @@ def download_file(url, file_name, path):
                 file.write(data)
 
         progress_bar.close()
+
+def create_folder_if_not_exists(folder_path):
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+        print(f"Folder: '{folder_path}', created.")
+
+for url, file_name, path in downloads:
+    create_folder_if_not_exists(path)
 
 with ThreadPoolExecutor(max_workers=4) as executor:
     future_to_download = {executor.submit(download_file, url, file_name, path): file_name for url, file_name, path in downloads}
