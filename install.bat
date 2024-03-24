@@ -12,12 +12,7 @@ python -m pip install -r requirements.txt
 
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu121
 
-python -m pip install huggingface_hub
-python -m pip install opencv-python
-python -m pip install insightface
-python -m pip install onnxruntime
-python -m pip install onnxruntime-gpu
-python -m pip install simpleeval
+python -m pip install huggingface_hub opencv-python insightface onnxruntime onnxruntime-gpu simpleeval
 
 git clone https://github.com/ltdrdata/ComfyUI-Manager.git custom_nodes/ComfyUI-Manager
 git clone https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git custom_nodes/ComfyUI-Custom-Scripts
