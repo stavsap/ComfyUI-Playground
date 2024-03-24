@@ -17,6 +17,8 @@ python -m pip install onnxruntime
 python -m pip install onnxruntime-gpu
 python -m pip install simpleeval
 
+git clone https://github.com/LEv145/images-grid-comfy-plugin.git custom_nodes/images-grid-comfy-plugin
+
 cd custom_nodes
 git clone https://github.com/ltdrdata/ComfyUI-Manager.git
 git clone https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git
@@ -26,7 +28,6 @@ git clone https://github.com/cubiq/ComfyUI_essentials.git
 git clone https://github.com/Ttl/ComfyUi_NNLatentUpscale.git
 git clone https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git
 git clone https://github.com/rgthree/rgthree-comfy.git
-git clone https://github.com/LEv145/images-grid-comfy-plugin.git
 
 git clone https://github.com/jags111/efficiency-nodes-comfyui.git
 cd efficiency-nodes-comfyui
