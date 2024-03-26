@@ -1,5 +1,7 @@
 # ComfyUI Playground
 
+<a href="https://www.buymeacoffee.com/stavsapq" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="40" width="174"></a>
+
 # Windows Install
 
 The installation will set up ComfyUI on the host, and download custom nodes and relevant models. Pre-requisites are:
