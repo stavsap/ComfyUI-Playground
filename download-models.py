@@ -35,8 +35,8 @@ downloads = [
         ("https://huggingface.co/MonsterMMORPG/tools/resolve/main/antelopev2.zip?download=true", "antelopev2.zip", "./models/insightface/models/"),
         ("https://huggingface.co/InstantX/InstantID/resolve/main/ip-adapter.bin?download=true", "ip-adapter.bin", './models/instantid/'),
         ("https://huggingface.co/InstantX/InstantID/resolve/main/ControlNetModel/diffusion_pytorch_model.safetensors?download=true", "diffusion_pytorch_model.safetensors", './models/controlnet/'),
-        ("https://huggingface.co/h94/IP-Adapter/resolve/main/models/image_encoder/model.safetensors?download=true", "ip-adapter-sd-1-5-encoder.safetensors", './models/clip_vision/'),
-        ("https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/image_encoder/model.safetensors?download=true", "ip-adapter-sd-xl-encoder.safetensors", './models/clip_vision/'),
+        ("https://huggingface.co/h94/IP-Adapter/resolve/main/models/image_encoder/model.safetensors?download=true", "CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors", './models/clip_vision/'),
+        ("https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/image_encoder/model.safetensors?download=true", "CLIP-ViT-bigG-14-laion2B-39B-b160k.safetensors", './models/clip_vision/'),
 
         ("https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.safetensors?download=true", "ip-adapter_sd15.safetensors", './models/ipadapter/'),
         ("https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_light.safetensors?download=true", "ip-adapter_sd15_light.safetensors", './models/ipadapter/'),
