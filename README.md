@@ -12,7 +12,7 @@ The installation will set up ComfyUI on the host, and download custom nodes and 
 
 Current Install Size: ~120GB
 
-open cmd, copy past this command and run:
+open cmd in desired path, copy past this command and run:
 
 ```shell
 curl -o install.bat https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/install.bat && cmd /c install.bat
