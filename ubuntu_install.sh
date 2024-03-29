@@ -22,6 +22,7 @@ git clone https://github.com/Ttl/ComfyUi_NNLatentUpscale.git custom_nodes/ComfyU
 git clone https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git custom_nodes/ComfyUI-AnimateDiff-Evolved
 git clone https://github.com/rgthree/rgthree-comfy.git custom_nodes/rgthree-comfy
 git clone https://github.com/LEv145/images-grid-comfy-plugin.git custom_nodes/images-grid-comfy-plugin
+git clone https://github.com/glowcone/comfyui-load-image-from-url.git custom_nodes/comfyui-load-image-from-url
 
 git clone https://github.com/jags111/efficiency-nodes-comfyui.git custom_nodes/efficiency-nodes-comfyui
 python -m pip install -r custom_nodes/efficiency-nodes-comfyui/requirements.txt
