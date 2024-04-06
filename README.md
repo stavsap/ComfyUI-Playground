@@ -32,6 +32,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/ubun
 # Additional Custom nodes Installed
 
 - [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager)
+- [ComfyUI-Crystools](https://github.com/crystian/ComfyUI-Crystools)
 - [ComfyUI-Advanced-ControlNet](https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git)
 - [ComfyUI-IPAdapter-plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus.git)
 - [ComfyUI-InstantID](https://github.com/cubiq/ComfyUI_InstantID.git)
