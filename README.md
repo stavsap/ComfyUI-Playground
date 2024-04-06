@@ -20,7 +20,7 @@ curl -o install.bat https://raw.githubusercontent.com/stavsap/ComfyUI-Playground
 
 # Ubuntu Install
 
-- [python 3.10+](https://www.python.org/downloads/)
+- [python 3.10+](https://www.python.org/downloads/), python3-venv and python3-dev.
 - [git](https://git-scm.com/downloads)
 - unzip
 - make
