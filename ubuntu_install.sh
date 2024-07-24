@@ -39,6 +39,9 @@ python -m pip install -r custom_nodes/ComfyUI-SUPIR/requirements.txt
 git clone https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git custom_nodes/ComfyUI-Advanced-ControlNet
 python -m pip install -r custom_nodes/ComfyUI-Advanced-ControlNet/requirements.txt
 
+git clone https://github.com/kijai/ComfyUI-Florence2.git custom_nodes/ComfyUI-Florence2
+python -m pip install -r custom_nodes/ComfyUI-Florence2/requirements.txt
+
 git clone https://github.com/Gourieff/comfyui-reactor-node.git custom_nodes/comfyui-reactor-node
 cd custom_nodes/comfyui-reactor-node
 python install.py
