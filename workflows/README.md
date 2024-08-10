@@ -36,3 +36,9 @@ Preserve character face with combination of prompt.
 Preserve character face with combination of prompt and style using instant ID and IP Adapter.
 
 ![pic](instanteID-ip-adpater.png)
+
+## Flux
+
+Flux nodes (unet, clip, vae)
+
+![pic](Flux.png)
