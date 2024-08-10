@@ -4,6 +4,8 @@ from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 downloads = [
+
+        # ControlNet
         ("https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11e_sd15_ip2p.pth", "control_v11e_sd15_ip2p.pth", "./models/controlnet/"),
         ("https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11e_sd15_ip2p.yaml","control_v11e_sd15_ip2p.yaml","./models/controlnet/"),
         ("https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11e_sd15_shuffle.pth","control_v11e_sd15_shuffle.pth","./models/controlnet/"),
@@ -32,12 +34,14 @@ downloads = [
         ("https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_softedge.yaml", "control_v11p_sd15_softedge.yaml","./models/controlnet/"),
         ("https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15s2_lineart_anime.pth", "control_v11p_sd15s2_lineart_anime.pth","./models/controlnet/"),
         ("https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15s2_lineart_anime.yaml", "control_v11p_sd15s2_lineart_anime.yaml","./models/controlnet/"),
+        ("https://huggingface.co/InstantX/InstantID/resolve/main/ControlNetModel/diffusion_pytorch_model.safetensors?download=true", "diffusion_pytorch_model.safetensors", './models/controlnet/'),
+
         ("https://huggingface.co/MonsterMMORPG/tools/resolve/main/antelopev2.zip?download=true", "antelopev2.zip", "./models/insightface/models/"),
         ("https://huggingface.co/InstantX/InstantID/resolve/main/ip-adapter.bin?download=true", "ip-adapter.bin", './models/instantid/'),
-        ("https://huggingface.co/InstantX/InstantID/resolve/main/ControlNetModel/diffusion_pytorch_model.safetensors?download=true", "diffusion_pytorch_model.safetensors", './models/controlnet/'),
         ("https://huggingface.co/h94/IP-Adapter/resolve/main/models/image_encoder/model.safetensors?download=true", "CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors", './models/clip_vision/'),
         ("https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/image_encoder/model.safetensors?download=true", "CLIP-ViT-bigG-14-laion2B-39B-b160k.safetensors", './models/clip_vision/'),
 
+        # IP-Adapter
         ("https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.safetensors?download=true", "ip-adapter_sd15.safetensors", './models/ipadapter/'),
         ("https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_light.safetensors?download=true", "ip-adapter_sd15_light.safetensors", './models/ipadapter/'),
         ("https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors?download=true", "ip-adapter-plus_sd15.safetensors", './models/ipadapter/'),
@@ -51,6 +55,7 @@ downloads = [
 
         ("https://huggingface.co/AIBrainBox/inswapper_128.onnx/resolve/main/inswapper_128.onnx?download=true", "inswapper_128.onnx", './models/insightface/models/'),
 
+        # IP-Adapter-FaceID
         ("https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sd15.bin?download=true", "ip-adapter-faceid_sd15.bin", './models/loras/'),
         ("https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plus_sd15.bin?download=true", "ip-adapter-faceid-plus_sd15.bin", './models/loras/'),
         ("https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin?download=true", "ip-adapter-faceid-plusv2_sd15.bin", './models/loras/'),
@@ -63,6 +68,7 @@ downloads = [
 
         ("https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x-UltraSharp.pth?download=true",  "4x-UltraSharp.pth", './models/upscale_models/'),
 
+        # AnimatedDiff
         ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/mm_sd_v14.ckpt?download=true",  "mm_sd_v14.ckpt", './models/animatediff_models/'),
         ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/mm_sd_v15.ckpt?download=true",  "mm_sd_v15.ckpt", './models/animatediff_models/'),
         ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/mm_sd_v15_v2.ckpt?download=true",  "mm_sd_v15_v2.ckpt", './models/animatediff_models/'),
