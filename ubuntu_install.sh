@@ -24,7 +24,7 @@ git clone https://github.com/rgthree/rgthree-comfy.git custom_nodes/rgthree-comf
 git clone https://github.com/LEv145/images-grid-comfy-plugin.git custom_nodes/images-grid-comfy-plugin
 git clone https://github.com/glowcone/comfyui-load-image-from-url.git custom_nodes/comfyui-load-image-from-url
 
-git clone git clone https://github.com/crystian/ComfyUI-Crystools.git custom_nodes/ComfyUI-Crystools
+git clone https://github.com/crystian/ComfyUI-Crystools.git custom_nodes/ComfyUI-Crystools
 python -m pip install -r custom_nodes/ComfyUI-Crystools/requirements.txt
 
 git clone https://github.com/jags111/efficiency-nodes-comfyui.git custom_nodes/efficiency-nodes-comfyui
@@ -37,7 +37,6 @@ git clone https://github.com/kijai/ComfyUI-SUPIR.git custom_nodes/ComfyUI-SUPIR
 python -m pip install -r custom_nodes/ComfyUI-SUPIR/requirements.txt
 
 git clone https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git custom_nodes/ComfyUI-Advanced-ControlNet
-python -m pip install -r custom_nodes/ComfyUI-Advanced-ControlNet/requirements.txt
 
 git clone https://github.com/kijai/ComfyUI-Florence2.git custom_nodes/ComfyUI-Florence2
 python -m pip install -r custom_nodes/ComfyUI-Florence2/requirements.txt
