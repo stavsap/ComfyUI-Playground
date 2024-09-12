@@ -94,8 +94,12 @@ downloads = [
         # Flux vae
         ("https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors?download=true", "ae.safetensors", './models/vae/'),
 
-        # Flux unet schnell
+        # Flux unet schnell (~24 GB)
         ("https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/flux1-schnell.safetensors?download=true", "flux1-schnell.safetensors", './models/unet/'),
+
+        # Flux unet Dev (~24 GB)
+        ("https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors?download=true", "flux1-dev.safetensors", './models/unet/'),
+
 ]
 
 def download_file(url, file_name, path):
