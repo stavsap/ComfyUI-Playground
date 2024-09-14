@@ -37,6 +37,9 @@ python -m pip install -r custom_nodes/comfy-image-saver/requirements.txt
 git clone https://github.com/kijai/ComfyUI-SUPIR.git custom_nodes/ComfyUI-SUPIR
 python -m pip install -r custom_nodes/ComfyUI-SUPIR/requirements.txt
 
+git clone https://github.com/ltdrdata/ComfyUI-Inspire-Pack.git custom_nodes/ComfyUI-Inspire-Pack
+python -m pip install -r custom_nodes/ComfyUI-Inspire-Pack/requirements.txt
+
 git clone https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git custom_nodes/ComfyUI-Advanced-ControlNet
 
 git clone https://github.com/kijai/ComfyUI-Florence2.git custom_nodes/ComfyUI-Florence2
