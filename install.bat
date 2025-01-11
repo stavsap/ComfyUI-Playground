@@ -24,6 +24,7 @@ git clone https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git custom_
 git clone https://github.com/rgthree/rgthree-comfy.git custom_nodes/rgthree-comfy
 git clone https://github.com/LEv145/images-grid-comfy-plugin.git custom_nodes/images-grid-comfy-plugin
 git clone https://github.com/glowcone/comfyui-load-image-from-url.git custom_nodes/comfyui-load-image-from-url
+git clone https://github.com/11cafe/comfyui-workspace-manager.git custom_nodes/comfyui-workspace-manager
 
 git clone https://github.com/crystian/ComfyUI-Crystools.git custom_nodes/ComfyUI-Crystools
 python -m pip install -r custom_nodes/ComfyUI-Crystools/requirements.txt
