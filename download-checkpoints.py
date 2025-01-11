@@ -25,6 +25,9 @@ downloads = [
 
     ("https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/resolve/main/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors?download=true",  "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors", './models/checkpoints/sdxl/'),
     ("https://huggingface.co/latent-consistency/lcm-lora-sdxl/resolve/main/pytorch_lora_weights.safetensors?download=true",  "LCM-lora-weights.safetensors", './models/loras/'),
+
+    ("https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltx-video-2b-v0.9.1.safetensors?download=true",  "ltx-video-2b-v0.9.1.safetensors.safetensors", './models/checkpoints/ltx/'),
+    ("https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltx-video-2b-v0.9.safetensors?download=true",  "ltx-video-2b-v0.9.safetensors.safetensors", './models/checkpoints/ltx/'),
 ]
 
 def download_file(url, file_name, path):
