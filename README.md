@@ -77,3 +77,5 @@ curl -sLS https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/ubun
 - [ControlNet Models for Stable Diffusion 3.5 Large](https://blog.comfy.org/p/sd3-5-large-controlnet)
 
 - [Hunyuan video](https://blog.comfy.org/p/hunyuanvideo-native-support-in-comfyui)
+
+- [Cosmos video](https://blog.comfy.org/p/comfyui-now-supports-nvidia-cosmos)

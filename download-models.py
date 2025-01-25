@@ -120,7 +120,6 @@ downloads = [
 
         ("https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sd_xl_turbo_1.0_fp16.safetensors?download=true","sd_xl_turbo_1.0_fp16.safetensors.safetensors", './models/checkpoints/sdxl/'),
 
-
         ("https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0F.ckpt?download=true", "SUPIR-v0F.ckpt",'./models/checkpoints/supir/'),
 
         ("https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt?download=true", "SUPIR-v0Q.ckpt",'./models/checkpoints/supir/'),
@@ -143,6 +142,13 @@ downloads = [
         ("https://huggingface.co/stabilityai/stable-diffusion-3.5-large-turbo/resolve/main/sd3.5_large_turbo.safetensors?download=true","sd3.5_large_turbo.safetensors", './models/checkpoints/sd_3_5/'),
         ("https://huggingface.co/stabilityai/stable-diffusion-3.5-large/resolve/main/sd3.5_large.safetensors?download=true","sd3.5_large.safetensors", './models/checkpoints/sd_3_5/'),
         ("https://huggingface.co/stabilityai/stable-diffusion-3.5-medium/resolve/main/sd3.5_medium.safetensors?download=true","sd3.5_large_medium.safetensors", './models/checkpoints/sd_3_5/'),
+
+        # Cosmos v1.0
+        ("https://huggingface.co/comfyanonymous/cosmos_1.0_text_encoder_and_VAE_ComfyUI/resolve/main/text_encoders/oldt5_xxl_fp8_e4m3fn_scaled.safetensors?download=true","oldt5_xxl_fp8_e4m3fn_scaled.safetensors", './models/text_encoders/'),
+        ("https://huggingface.co/comfyanonymous/cosmos_1.0_text_encoder_and_VAE_ComfyUI/resolve/main/text_encoders/oldt5_xxl_fp16.safetensors?download=true","oldt5_xxl_fp16.safetensors", './models/text_encoders/'),
+        ("https://huggingface.co/comfyanonymous/cosmos_1.0_text_encoder_and_VAE_ComfyUI/resolve/main/vae/cosmos_cv8x8x8_1.0.safetensors?download=true","cosmos_cv8x8x8_1.0.safetensors", './models/vae/'),
+        ("https://huggingface.co/mcmonkey/cosmos-1.0/resolve/main/Cosmos-1_0-Diffusion-7B-Text2World.safetensors?download=true","Cosmos-1_0-Diffusion-7B-Text2World.safetensors", './models/diffusion_models/'),
+        ("https://huggingface.co/mcmonkey/cosmos-1.0/resolve/main/Cosmos-1_0-Diffusion-7B-Video2World.safetensors?download=true","Cosmos-1_0-Diffusion-7B-Video2World.safetensors", './models/diffusion_models/'),
 ]
 
 def download_file(url, file_name, path):
