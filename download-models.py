@@ -103,6 +103,11 @@ downloads = [
         # Flux unet Dev (~24 GB)
         ("https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors?download=true", "flux1-dev.safetensors", './models/unet/'),
 
+        # HunyuanVideo
+        ("https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors?download=true","hunyuan_video_t2v_720p_bf16.safetensors", './models/diffusion_models/'),
+        ("https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/llava_llama3_fp8_scaled.safetensors?download=true","llava_llama3_fp8_scaled.safetensors", './models/text_encoders/'),
+        ("https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/vae/hunyuan_video_vae_bf16.safetensors?download=true","hunyuan_video_vae_bf16.safetensors", './models/vae/'),
+
 ]
 
 def download_file(url, file_name, path):

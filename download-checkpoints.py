@@ -34,6 +34,9 @@ downloads = [
     ("https://huggingface.co/stabilityai/stable-diffusion-3.5-large-turbo/resolve/main/sd3.5_large_turbo.safetensors?download=true",  "sd3.5_large_turbo.safetensors", './models/checkpoints/sd_3_5/'),
     ("https://huggingface.co/stabilityai/stable-diffusion-3.5-large/resolve/main/sd3.5_large.safetensors?download=true",  "sd3.5_large.safetensors", './models/checkpoints/sd_3_5/'),
     ("https://huggingface.co/stabilityai/stable-diffusion-3.5-medium/resolve/main/sd3.5_medium.safetensors?download=true",  "sd3.5_large_medium.safetensors", './models/checkpoints/sd_3_5/'),
+
+
+
 ]
 
 def download_file(url, file_name, path):
