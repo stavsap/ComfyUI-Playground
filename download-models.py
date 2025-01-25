@@ -91,6 +91,9 @@ downloads = [
         ("https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors?download=true",  "clip_l.safetensors", './models/clip/'),
         ("https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors?download=true",  "t5xxl_fp8_e4m3fn.safetensors", './models/clip/'),
 
+        # SD 3.5 clips
+        ("https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/resolve/main/text_encoders/clip_g.safetensors?download=true",  "clip_g.safetensors.safetensors", './models/clip/'),
+
         # Flux vae
         ("https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors?download=true", "ae.safetensors", './models/vae/'),
 

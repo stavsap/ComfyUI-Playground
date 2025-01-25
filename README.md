@@ -34,14 +34,15 @@ curl -sLS https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/ubun
 # Additional Custom nodes Installed
 
 - [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager)
+- [ComfyUI-Ollama](https://github.com/stavsap/comfyui-ollama)
+- [ComfyUI-Kokoro](https://github.com/stavsap/comfyui-kokoro)
+- [ComfyUI-Essentials](https://github.com/cubiq/ComfyUI_essentials)
+- [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts)
 - [ComfyUI-Crystools](https://github.com/crystian/ComfyUI-Crystools)
 - [ComfyUI-Advanced-ControlNet](https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git)
 - [ComfyUI-IPAdapter-plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus.git)
 - [ComfyUI-InstantID](https://github.com/cubiq/ComfyUI_InstantID.git)
-- [ComfyUI-Essentials](https://github.com/cubiq/ComfyUI_essentials)
-- [ComfyUI-Reactor](https://github.com/Gourieff/comfyui-reactor-node.git)
-- [ComfyUI-Ollama](https://github.com/stavsap/comfyui-ollama.git)
-- [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts)
+- [ComfyUI-Reactor](https://github.com/Gourieff/ComfyUI-ReActor)
 - [ComfyUI-NN-Latent-Upscale](https://github.com/Ttl/ComfyUi_NNLatentUpscale)
 - [ComfyUI-AnimateDiff-Evolved](https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved)
 - [ComfyUI-SUPIR](https://github.com/kijai/ComfyUI-SUPIR)
@@ -69,6 +70,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/ubun
 - https://huggingface.co/uwg/upscaler
 
 
-# Workflows:
+# Blogs and Workflows:
 
-https://github.com/wyrde/wyrde-comfyui-workflows
+[SD 3.5 Comfy blog](https://blog.comfy.org/p/sd-35-medium)
+[ControlNet Models for Stable Diffusion 3.5 Large](https://blog.comfy.org/p/sd3-5-large-controlnet)
