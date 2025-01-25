@@ -24,6 +24,8 @@ curl -o install.bat https://raw.githubusercontent.com/stavsap/ComfyUI-Playground
 - [git](https://git-scm.com/downloads)
 - unzip
 - make
+- cmake
+- g++
 
 ```shell
 curl -sLS https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/ubuntu_install.sh | bash

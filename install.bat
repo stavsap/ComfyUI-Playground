@@ -46,13 +46,16 @@ git clone https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git custom_
 git clone https://github.com/kijai/ComfyUI-Florence2.git custom_nodes/ComfyUI-Florence2
 python -m pip install -r custom_nodes/ComfyUI-Florence2/requirements.txt
 
-git clone https://github.com/Gourieff/comfyui-reactor-node.git custom_nodes/comfyui-reactor-node
-cd custom_nodes/comfyui-reactor-node
+git clone https://github.com/Gourieff/ComfyUI-ReActor.git custom_nodes/ComfyUI-ReActor
+cd custom_nodes/ComfyUI-ReActor
 python install.py
 cd ../..
 
 git clone https://github.com/stavsap/comfyui-ollama.git custom_nodes/comfyui-ollama
 python -m pip install -r custom_nodes/comfyui-ollama/requirements.txt
+
+git clone https://github.com/stavsap/comfyui-kokoro.git custom_nodes/comfyui-kokoro
+python -m pip install -r custom_nodes/comfyui-kokoro/requirements.txt
 
 curl -s https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/download-models.py | python
 
