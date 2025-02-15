@@ -21,6 +21,7 @@ git clone https://github.com/cubiq/ComfyUI_InstantID.git custom_nodes/ComfyUI_In
 git clone https://github.com/cubiq/ComfyUI_essentials.git custom_nodes/ComfyUI_essentials
 git clone https://github.com/Ttl/ComfyUi_NNLatentUpscale.git custom_nodes/ComfyUi_NNLatentUpscale
 git clone https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git custom_nodes/ComfyUI-AnimateDiff-Evolved
+git clone https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git custom_nodes/ComfyUI-VideoHelperSuite
 git clone https://github.com/rgthree/rgthree-comfy.git custom_nodes/rgthree-comfy
 git clone https://github.com/LEv145/images-grid-comfy-plugin.git custom_nodes/images-grid-comfy-plugin
 git clone https://github.com/glowcone/comfyui-load-image-from-url.git custom_nodes/comfyui-load-image-from-url
