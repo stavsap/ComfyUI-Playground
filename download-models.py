@@ -102,6 +102,18 @@ downloads = [
         # Flux unet Dev (~24 GB)
         ("https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors?download=true", "flux1-dev.safetensors", './models/unet/'),
 
+        ("https://huggingface.co/black-forest-labs/FLUX.1-Fill-dev/resolve/main/flux1-fill-dev.safetensors?download=true", "flux1-fill-dev.safetensors", './models/unet/'),
+
+        ("https://huggingface.co/black-forest-labs/FLUX.1-Redux-dev/resolve/main/flux1-redux-dev.safetensors?download=true", "flux1-redux-dev.safetensors", './models/unet/'),
+
+        ("https://huggingface.co/black-forest-labs/FLUX.1-Depth-dev/resolve/main/flux1-depth-dev.safetensors?download=true", "flux1-depth-dev.safetensors", './models/unet/'),
+
+        ("https://huggingface.co/black-forest-labs/FLUX.1-Canny-dev/resolve/main/flux1-canny-dev.safetensors?download=true", "flux1-canny-dev.safetensors", './models/unet/'),
+
+        ("https://huggingface.co/black-forest-labs/FLUX.1-Depth-dev-lora/resolve/main/flux1-depth-dev-lora.safetensors?download=true", "flux1-depth-dev-lora.safetensors", './models/loras/'),
+
+        ("https://huggingface.co/black-forest-labs/FLUX.1-Canny-dev-lora/resolve/main/flux1-canny-dev-lora.safetensors?download=true", "flux1-canny-dev-lora.safetensors", './models/loras/'),
+
         # HunyuanVideo
         ("https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors?download=true","hunyuan_video_t2v_720p_bf16.safetensors", './models/diffusion_models/'),
         ("https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/llava_llama3_fp8_scaled.safetensors?download=true","llava_llama3_fp8_scaled.safetensors", './models/text_encoders/'),
