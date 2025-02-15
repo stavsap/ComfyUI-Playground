@@ -114,6 +114,9 @@ downloads = [
 
         ("https://huggingface.co/black-forest-labs/FLUX.1-Canny-dev-lora/resolve/main/flux1-canny-dev-lora.safetensors?download=true", "flux1-canny-dev-lora.safetensors", './models/loras/'),
 
+        # Lumina 2
+        ("https://huggingface.co/Comfy-Org/Lumina_Image_2.0_Repackaged/resolve/main/all_in_one/lumina_2.safetensors?download=true", "lumina_2.safetensors", './models/checkpoints/'),
+
         # HunyuanVideo
         ("https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/diffusion_models/hunyuan_video_t2v_720p_bf16.safetensors?download=true","hunyuan_video_t2v_720p_bf16.safetensors", './models/diffusion_models/'),
         ("https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/llava_llama3_fp8_scaled.safetensors?download=true","llava_llama3_fp8_scaled.safetensors", './models/text_encoders/'),
