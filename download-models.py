@@ -124,6 +124,9 @@ downloads = [
         ("https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/llava_llama3_fp8_scaled.safetensors?download=true","llava_llama3_fp8_scaled.safetensors", './models/text_encoders/'),
         ("https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/vae/hunyuan_video_vae_bf16.safetensors?download=true","hunyuan_video_vae_bf16.safetensors", './models/vae/'),
 
+        # Hunyuan 3D
+        ("https://huggingface.co/Kijai/Hunyuan3D-2_safetensors/resolve/main/hunyuan3d-dit-v2-0-fp16.safetensors?download=true","hunyuan3d-dit-v2-0-fp16.safetensors", './models/diffusion_models/'),
+
         ("https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors?download=true","sd_xl_base_1.0.safetensors", './models/checkpoints/sdxl/'),
 
         ("https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors?download=true", "sd_xl_refiner_1.0.safetensors", './models/checkpoints/sdxl/'),
