@@ -51,6 +51,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/ubun
 - [ComfyUI-Images-Grid](https://github.com/LEv145/images-grid-comfy-plugin)
 - [ComfyUI-Efficiency-Nodes](https://github.com/jags111/efficiency-nodes-comfyui)
 - [ComfyUI-Florence2](https://github.com/kijai/ComfyUI-Florence2)
+- [ComfyUI-UltimateSDUpscale](https://github.com/ssitu/ComfyUI_UltimateSDUpscale)
 
 # Models:
 
