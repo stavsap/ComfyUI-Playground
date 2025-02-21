@@ -9,7 +9,7 @@ source venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 
-pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu124
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu126
 
 python -m pip install huggingface_hub opencv-python insightface onnxruntime onnxruntime-gpu simpleeval xformers imageio-ffmpeg
 
