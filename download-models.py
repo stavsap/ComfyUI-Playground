@@ -85,6 +85,8 @@ downloads = [
         ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/v3_sd15_sparsectrl_rgb.ckpt?download=true",  "v3_sd15_sparsectrl_rgb.ckpt", './models/animatediff_models/'),
         ("https://huggingface.co/guoyww/animatediff/resolve/cd71ae134a27ec6008b968d6419952b0c0494cf2/v3_sd15_sparsectrl_scribble.ckpt?download=true",  "v3_sd15_sparsectrl_scribble.ckpt", './models/animatediff_models/'),
 
+        # Clips
+        ("https://huggingface.co/zer0int/CLIP-GmP-ViT-L-14/resolve/main/ViT-L-14-GmP-ft.safetensors?download=true",  "ViT-L-14-GmP-ft.safetensors", './models/clip/'),
         # Flux clips
         ("https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors?download=true",  "t5xxl_fp16.safetensors", './models/clip/'),
         ("https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors?download=true",  "clip_l.safetensors", './models/clip/'),
