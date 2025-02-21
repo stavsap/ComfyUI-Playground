@@ -1,5 +1,8 @@
 # Workflows
 
+The workflows are in json format [here](jsons)
+
+# Basic Workflows
 Basic workflows to get started with comfy and the installed models by this repo.
 
 Just drag the picture into comfy and it will load the workflow.
