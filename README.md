@@ -20,12 +20,12 @@ curl -o install.bat https://raw.githubusercontent.com/stavsap/ComfyUI-Playground
 
 # Ubuntu Install
 
-- [python 3.10+](https://www.python.org/downloads/), python3-venv and python3-dev.
-- [git](https://git-scm.com/downloads)
-- unzip
-- make
-- cmake
-- g++
+Provision ubuntu with needed libs
+
+```shell
+curl -sLS https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/ubuntu_provision.sh | bash
+```
+Install ComfyUI
 
 ```shell
 curl -sLS https://raw.githubusercontent.com/stavsap/ComfyUI-Playground/main/ubuntu_install.sh | bash
