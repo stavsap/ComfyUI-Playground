@@ -175,6 +175,11 @@ downloads = [
         ("https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors?download=true","clip_vision_h.safetensors", './models/clip_vision/'),
         ("https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors?download=true","wan_2.1_vae.safetensors", './models/vae/'),
 
+        # LTX-Video 0.9.5
+        ("https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltx-video-2b-v0.9.5.safetensors?download=true","ltx-video-2b-v0.9.5.safetensors", './models/checkpoints/ltx/'),
+        ("https://huggingface.co/Comfy-Org/mochi_preview_repackaged/resolve/main/split_files/text_encoders/t5xxl_fp16.safetensors?download=true","t5xxl_fp16.safetensors", './models/text_encoders/'),
+        ("https://huggingface.co/Comfy-Org/mochi_preview_repackaged/resolve/main/split_files/text_encoders/t5xxl_fp8_e4m3fn_scaled.safetensors?download=true","t5xxl_fp8_e4m3fn_scaled.safetensors", './models/text_encoders/'),
+
 ]
 
 def download_file(url, file_name, path):
