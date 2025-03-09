@@ -169,6 +169,12 @@ downloads = [
         ("https://huggingface.co/comfyanonymous/cosmos_1.0_text_encoder_and_VAE_ComfyUI/resolve/main/vae/cosmos_cv8x8x8_1.0.safetensors?download=true","cosmos_cv8x8x8_1.0.safetensors", './models/vae/'),
         ("https://huggingface.co/mcmonkey/cosmos-1.0/resolve/main/Cosmos-1_0-Diffusion-7B-Text2World.safetensors?download=true","Cosmos-1_0-Diffusion-7B-Text2World.safetensors", './models/diffusion_models/'),
         ("https://huggingface.co/mcmonkey/cosmos-1.0/resolve/main/Cosmos-1_0-Diffusion-7B-Video2World.safetensors?download=true","Cosmos-1_0-Diffusion-7B-Video2World.safetensors", './models/diffusion_models/'),
+
+        # WAN 2.1
+        ("https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors?download=true","umt5_xxl_fp8_e4m3fn_scaled.safetensors", './models/text_encoders/'),
+        ("https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors?download=true","clip_vision_h.safetensors", './models/clip_vision/'),
+        ("https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors?download=true","wan_2.1_vae.safetensors", './models/vae/'),
+
 ]
 
 def download_file(url, file_name, path):
